@@ -1,0 +1,33 @@
+@media (max-width: 739px){
+#nav>li{
+    display: block;
+    }
+#header {
+    overflow: hidden;
+}
+
+#header .search-button {
+    display: none;
+}
+
+#header .mobile-menu-button{
+    font-size: 1.25em;
+    color: white;
+    line-height: 2.875em;
+    float: right;
+    padding: 0 21px;
+}
+
+#header .mobile-menu-button:hover {
+    background-color: #ccc;
+    color: black;
+}
+/* làm cái ẩn hiện menu nữa nhé */
+}
+
+@media (min_width: 740px) and (max-width: 1023px){
+    #header .mobile-menu-button .ti-menu{
+        clip-path: polygon(0px 0px,0px 0px,0px 0px,0px 0px);
+    }
+
+}
